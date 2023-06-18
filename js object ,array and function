@@ -1,4 +1,4 @@
-                                                //object
+                                  //object
 let person={
     name:'ray',
     age:22
@@ -9,3 +9,10 @@ console.log(person);
 //dot methode
 person.name = 'john';
 console.log(person.name);
+                                      //array
+let color=['red','blue','green'];
+color[3]='white';
+color[4]=3;
+console.log(color);
+console.log(color[2]);
+console.log(color.length);
