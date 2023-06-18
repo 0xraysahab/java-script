@@ -16,3 +16,17 @@ color[4]=3;
 console.log(color);
 console.log(color[2]);
 console.log(color.length);
+                                       //function
+// function greet(){
+//     console.log('hello world');
+// }
+// greet();
+function greet(name,title){
+    console.log('hello'+ ' '+name+' '+title);
+}
+greet('ray','patel');
+
+function square(number){
+    return number*number;
+}
+console.log(square(3));
