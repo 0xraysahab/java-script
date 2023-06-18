@@ -1,0 +1,11 @@
+//object
+let person={
+    name:'ray',
+    age:22
+};
+//for changing the name
+console.log(person);
+
+//dot methode
+person.name = 'john';
+console.log(person.name);
